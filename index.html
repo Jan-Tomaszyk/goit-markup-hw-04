@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WebStudio</title>
+	<link href="css/modern-normalize.min.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com/">
+	<link rel="preconnect" href="https://fonts.gstatic.com/">
+	<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container poziom">
+		<a href="index.html" target="_self" class="logo link"><span class="web">Web</span><span>Studio</span></a>
+		<nav class="menu">
+			<ul class="poziom">
+				<li><a class="menuopcja link" href="#"  target="_self">Agencja</a></li>
+				<li><a class="menuopcja link" href="portfolio.html"  target="_self">Portfolio</a></li>
+				<li><a class="menuopcja link" href="#"  target="_self">Kontakt</a></li>
+			</ul>
+		</nav>
+		<ul class="poziom kontakt">
+			<li><a class="link kontakt" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+			<li><a class="link kontakt" href="tel:48111111111">+48 111 111 111</a></li>
+		</ul>
+		</div>
+	</header>
+	<main>
+		<!-- pierwsekcja (flex?(problem z wyśrodkowaniem bez tego)) -->
+		<section class="ciemnasek section">
+			<div class="container">
+			<div class="centrum">
+				<h1 class="naguwek">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU </h1><!-- czy na pewno h1 powinno być tym a nie WebStudio?--></div>
+			<div class="centrum">
+				<button class="przycisk" type="button">Zamów usługe</button>
+			</div>
+			</div>
+		</section>
+		<!-- Nasze atuty -->
+		<section class="section">
+			<div class="container">
+			<h2 hidden>Nasze atuty</h2>
+			<ul class="poziom">
+				<li>
+					<p class="wazne">LOREM IPSUM</p>
+					<p class="zwykle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+				</li>
+				<li>
+					<p class="wazne">LOREM IPSUM</p>
+					<p class="zwykle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+				</li>
+				<li>
+					<p class="wazne">LOREM IPSUM</p>
+					<p class="zwykle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+				</li>
+				<li>
+					<p class="wazne">LOREM IPSUM</p>
+					<p class="zwykle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+				</li>
+			</ul>
+			</div>
+		</section>
+		<!--Czym się zajmujemy-->
+		<section class="section">
+			<div class="container">
+			<h2 class="naguwek wazne">Czym się zajmujemy</h2>
+			<ul class="poziom">
+				<li><img src="images/Czym_się_zajmujemy/komputer.jpg" alt="komputer, pisanie kodu" width="370" height="294"></li>
+				<li><img src="images/Czym_się_zajmujemy/laptop.jpg" alt="laptop, układ graficzny" width="370" height="294"></li>
+				<li><img src="images/Czym_się_zajmujemy/tablet.jpg" alt="tablet, paleta kolorów" width="370" height="294"></li>
+			</ul>
+			</div>	
+		</section>
+		<!--Nasz zespół-->
+		<section class="section">
+			<div class="container">
+			<h2 class="naguwek wazne">Nasz zespół</h2>
+			<ul class="poziom">
+				<li>
+					<figure>
+						<img src="images/Nasz_zespół/product_designer.jpg" alt="Product designer" width="270" height="260">
+						<figcaption class="naguwek">
+							<h3 class="wazne">John Doe</h3>
+							<p class="zwykle">Product designer</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="images/Nasz_zespół/frontend_developer.jpg" alt="Frontend developer" width="270" height="260">
+						<figcaption class="naguwek">
+							<h3 class="wazne">John Doe</h3>
+							<p class="zwykle">Frontend developer</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="images/Nasz_zespół/marketing.jpg" alt="Marketing" width="270" height="260">
+						<figcaption class="naguwek">
+							<h3 class="wazne">John Doe</h3>
+							<p class="zwykle">Marketing</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="images/Nasz_zespół/ui_designer.jpg" alt="UI Designer" width="270" height="260">
+						<figcaption class="naguwek">
+							<h3 class="wazne">John Doe</h3>
+							<p class="zwykle">UI Designer</p>
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
+			</div>
+		</section>
+	</main>
+	<footer class="ciemnasek" >
+		<div class="container">
+		<a href="index.html" target="_self" class="logo link"><span class="web">Web</span><span>Studio</span></a>
+		<ul class="liststop">
+			<li class="listel"><a class="link" href="https://www.google.pl/maps/place/aleje+Jerozolimskie+21,+00-508+Warszawa/" target="_blank" rel="noopenernorefferencenofollow">m. Warszawa, Aleje Jerozolimskie 21</a><address></address></li>
+			<li class="listel"><a class="link kontakt" href="mailto:info@example.com">info@example.com</a></li>
+			<li class="listel"><a class="link kontakt" href="tel:48111111111">+48 111 111 111</a></li>
+		</ul>
+		</div>
+	</footer>
+</body>
+</html>
