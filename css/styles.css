@@ -63,13 +63,14 @@ h1, h2, h3, h4, h5, h6, p, ul, li
   align-items: center;
   gap: 10px;
 }
-.contact :focus :hover
+.kontakt :focus :hover
 {
   color: var(--blekit);
   stroke: var(--blekit);
+  border-color: var(--blekit);
 }
 .icon {
-  /*border: 2px dashed #2a2a2a;
+  border: 1px dashed var(--jasnoszary);
   /*border-radius: 10%;
   position:relative;
   display: inline;
