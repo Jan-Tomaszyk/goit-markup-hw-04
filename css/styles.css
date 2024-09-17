@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li
   border-color: var(--blekit);
 }
 .icon {
-  /*border: 1px dashed var(--jasnoszary);
+  border: 1px dashed var(--jasnoszary);
   /*border-radius: 10%;
   position:relative;
   display: inline;
