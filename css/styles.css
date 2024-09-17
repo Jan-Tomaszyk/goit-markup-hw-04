@@ -70,7 +70,8 @@ h1, h2, h3, h4, h5, h6, p, ul, li
 .kontakt :focus, .kontakt :hover
 {
   color: var(--blekit);
-  stroke: var(--blekit);
+  /*fill: var(--blekit);*/
+  fill: var(--blekit);
   border-color: var(--blekit);
 }
 .icon {
