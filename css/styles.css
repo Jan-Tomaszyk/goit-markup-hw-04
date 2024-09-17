@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color:var(--jasnoszary);
+  color: var(--jasnoszary);
   fill: var(--jasnoszary);
   stroke-width: 1px;
   stroke: var(--jasnoszary);
