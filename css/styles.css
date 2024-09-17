@@ -44,11 +44,53 @@ h1, h2, h3, h4, h5, h6, p, ul, li
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+.kontakty
+{
+  display: flex;
+  gap: 30px;
+}
+.kontakty li {
+  flex-basis: calc((100% - 30px) / 2);
+}
+.kontakt {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--jasnoszary);
+  text-decoration-line: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contact :focus :hover
+{
+  color: var(--blekit);
+  stroke: var(--blekit);
+}
+.icon {
+  /*border: 2px dashed #2a2a2a;
+  /*border-radius: 10%;
+  position:relative;
+  display: inline;
+  visibility: visible;
+  color: inherit;*/
+}
+/*.icon:hover
+{
+  fill:blue;
+}
+*/
+.ciemnasek .icon
+{
+  fill: #a2a2a2;
+}
 header
 {
   border-bottom: 1px solid var(--uperjasnoszary);
 }
+/*«C1» Jako tło tworzony jest duży obraz z efektem przyciemnienia (pod nagłówkiem). Do przyciemnienia stosuje się wielowarstwowe tło z gradientem.*/
+
 
 .link
 {
@@ -65,7 +107,6 @@ header
 {
   margin-left: 93px;
 }
-
 .poziom li
 {
   margin-right: 46px;
@@ -75,18 +116,15 @@ header
 {
   margin-left: 0;
 }
-
 .poziom > li:last-child
 {
   margin-right: 0;
 }
-
-.poziom .kontakt:first-of-type
+.poziom .kontakty:first-of-type
 {
   margin-right: 50px;
 }
-
-.poziom > .kontakt
+.poziom > .kontakty
 {
   margin-left: 301px;
   margin-top: 0px;
@@ -130,6 +168,9 @@ ul.poziom
 .kontakt
 {
   color:var(--jasnoszary);
+  fill: var(--jasnoszary);
+  stroke-width: 1px;
+  stroke: var(--jasnoszary)
 }
 
 
@@ -191,11 +232,17 @@ h1.naguwek
   border-radius: 5%;
 }
 
-.przycisk:hover, .przycisk:focus
+/*.przycisk:active
 {
   color: white;
   background: var(--blekit);
-  
+}*/
+
+.przycisk:hover, .przycisk:focus
+{
+  box-shadow: 0px 2px 3px 1px hsla(0,0%,0%,.3);
+  color: white;
+  background: var(--blekit);
 }
 
 .ciemnasek .przycisk
@@ -278,4 +325,22 @@ figure
 {
   padding-left: 295px;
   padding-right: 295px;
+}
+/*
+#sekh
+{
+  background-image: url('images/sekcja_nag1/img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}*/
+
+.naszkarta
+{
+  box-shadow: 0px 2px 3px 1px hsla(0,0%,0%,.3);
+}
+
+.portkarta:hover
+{
+  box-shadow: 0px 2px 3px 1px hsla(0,0%,0%,.3);
 }
