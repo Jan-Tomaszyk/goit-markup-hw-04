@@ -44,6 +44,11 @@ h1, h2, h3, h4, h5, h6, p, ul, li
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.link
+{
+  text-decoration: none;
+  color: inherit;
+}
 .kontakty
 {
   display: flex;
@@ -102,11 +107,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li
 /*«C1» Jako tło tworzony jest duży obraz z efektem przyciemnienia (pod nagłówkiem). Do przyciemnienia stosuje się wielowarstwowe tło z gradientem.*/
 
 
-.link
-{
-  text-decoration: none;
-  color: inherit;
-}
+
 .poziom
 {
   display: flex;
