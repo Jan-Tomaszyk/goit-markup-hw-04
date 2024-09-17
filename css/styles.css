@@ -171,16 +171,20 @@ ul.poziom
   text-align: left;*/
 }
 
-.web, ul .link:hover, ul .link:focus
-{
-  color: var(--blekit);
-}
 
 .menu > .link
 {
   font-weight: 500;
   background:var(--ciemnoszary);
 }
+.web, ul .link:hover, ul .link:focus
+{
+  color: var(--blekit);
+  stroke: var(--blekit);
+  fill: var(--blekit);
+  border-color: var(--blekit);
+}
+
 .menu > .poziom 
 {
   gap: 46px;
