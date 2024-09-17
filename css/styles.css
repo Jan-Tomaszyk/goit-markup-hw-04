@@ -90,9 +90,13 @@ h1, h2, h3, h4, h5, h6, p, ul, li
 {
   fill: #a2a2a2;
 }
-header
+.header
 {
   border-bottom: 1px solid var(--uperjasnoszary);
+  width: 1400px;
+  margin:0%;
+  padding-left: 115px;
+  padding-right: 115px;
 }
 /*«C1» Jako tło tworzony jest duży obraz z efektem przyciemnienia (pod nagłówkiem). Do przyciemnienia stosuje się wielowarstwowe tło z gradientem.*/
 
