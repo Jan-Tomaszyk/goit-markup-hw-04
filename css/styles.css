@@ -49,6 +49,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li
   display: flex;
   gap: 30px;
 }
+
 .kontakty li {
   flex-basis: calc((100% - 30px) / 2);
 }
@@ -57,7 +58,10 @@ h1, h2, h3, h4, h5, h6, p, ul, li
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--jasnoszary);
+  color:var(--jasnoszary);
+  fill: var(--jasnoszary);
+  stroke-width: 1px;
+  stroke: var(--jasnoszary);
   text-decoration-line: none;
   display: flex;
   align-items: center;
@@ -164,14 +168,6 @@ ul.poziom
 {
   font-weight: 500;
   background:var(--ciemnoszary);
-}
-
-.kontakt
-{
-  color:var(--jasnoszary);
-  fill: var(--jasnoszary);
-  stroke-width: 1px;
-  stroke: var(--jasnoszary)
 }
 
 
