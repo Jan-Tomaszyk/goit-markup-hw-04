@@ -177,7 +177,7 @@ ul.poziom
   font-weight: 500;
   background:var(--ciemnoszary);
 }
-.web, ul .link:hover, ul .link:focus
+.web, .link:hover, .link:focus
 {
   color: var(--blekit);
   stroke: var(--blekit);
