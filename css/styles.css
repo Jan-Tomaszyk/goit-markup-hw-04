@@ -58,6 +58,12 @@ h1, h2, h3, h4, h5, h6, p, ul, li
 .kontakty li {
   flex-basis: calc((100% - 30px) / 2);
 }
+
+.kontakty .poziom
+{
+  gap: 10px;
+}
+
 .kontakt {
   font-weight: 500;
   font-size: 14px;
@@ -118,10 +124,10 @@ h1, h2, h3, h4, h5, h6, p, ul, li
 {
   margin-left: 93px;
 }
-.poziom li
+/*.poziom li
 {
   margin-right: 46px;
-}
+}*/
 
 .poziom > li:first-child
 {
@@ -175,7 +181,10 @@ ul.poziom
   font-weight: 500;
   background:var(--ciemnoszary);
 }
-
+.menu > .poziom 
+{
+  gap: 46px;
+}
 
 .ciemnasek
 {
