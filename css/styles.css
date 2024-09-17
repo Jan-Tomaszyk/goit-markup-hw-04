@@ -85,14 +85,14 @@ h1, h2, h3, h4, h5, h6, p, ul, li
   fill: var(--blekit);
   border-color: var(--blekit);
 }
-.icon {
-  /*border: 1px dashed var(--jasnoszary);
+/*.icon {
+  border: 1px dashed var(--jasnoszary);
   /*border-radius: 10%;
   position:relative;
   display: inline;
   visibility: visible;
-  color: inherit;*/
-}
+  color: inherit;
+}*/
 /*.icon:hover
 {
   fill:blue;
