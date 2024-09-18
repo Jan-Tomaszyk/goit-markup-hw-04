@@ -119,11 +119,11 @@ h1, h2, h3, h4, h5, h6, p, ul, li
   display: flex;
   justify-content: space-between;
   align-items:center;
-}
+}/*
 .poziom ul.poziom 
 {
   margin-left: 93px;
-}
+}*/
 ul.poziomlista
 {
   display: flex;
