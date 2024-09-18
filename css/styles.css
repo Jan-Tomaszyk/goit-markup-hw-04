@@ -174,7 +174,14 @@ ul.poziom
   text-align: left;*/
 }
 
-
+circle
+{
+  visibility: hidden;
+}
+circle:hover, circle:focus
+{
+  visibility: visible;
+}
 .menu > .link
 {
   font-weight: 500;
