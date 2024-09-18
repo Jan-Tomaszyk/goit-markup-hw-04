@@ -120,14 +120,14 @@ h1, h2, h3, h4, h5, h6, p, ul, li
   justify-content: space-between;
   align-items:center;
 }
-.poziom ul 
+.poziom ul.poziom 
 {
   margin-left: 93px;
 }
-/*.poziom li
+ul.poziomlista
 {
-  margin-right: 46px;
-}*/
+  gap: 30px;
+}
 
 .poziom > li:first-child
 {
