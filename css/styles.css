@@ -181,6 +181,8 @@ circle
 circle:hover, circle:focus
 {
   visibility: visible;
+  fill:rgba(33, 150, 243, 1);
+  stroke: rgba(33, 150, 243, 1;)
 }
 .menu > .link
 {
