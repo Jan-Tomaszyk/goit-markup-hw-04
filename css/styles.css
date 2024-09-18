@@ -128,8 +128,8 @@ ul.poziomlista
 {
   display: flex;
   justify-content: space-between;
-  align-items:center;
-  gap: 30px;
+  align-items: center;
+  gap: 30px;/**/
 }
 
 .poziom > li:first-child
