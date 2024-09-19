@@ -187,14 +187,13 @@ ul.poziom
   border-radius: 50%;
   cursor: pointer;
 }
-.socjalki .socjalka:hover {
+.socjalki .socjalka:hover, .socjalki .socjalka:focus
+{
   color: var(--bialy);
+  fill: var(--bialy);
   background-color: var(--blekit);
 }
-.socjalki .socjalka:focus {
-  color: var(--bialy);
-  background-color: var(--blekit);
-}
+
 
 /*circle:hover, circle:focus
 {
