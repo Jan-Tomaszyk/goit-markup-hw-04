@@ -219,6 +219,11 @@ ul.poziom
   cursor: pointer;
 }
 
+.ciemnasek .socjalki div.socjalka:hover, .socjalki div.socjalka:focus
+{
+  background-color: var(--blekit);
+}
+
 .menu > .link
 {
   font-weight: 500;
