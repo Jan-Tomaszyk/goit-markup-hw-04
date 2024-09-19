@@ -173,7 +173,8 @@ ul.poziom
   text-align: left;*/
 }
 
-.socjalki {
+.socjalki
+{
   display: flex;
   gap: 10px;
   padding: 16px 32px 0px;
@@ -199,17 +200,10 @@ ul.poziom
   color: var(--bialy);
   fill: var(--bialy);
 }
-/*circle:hover, circle:focus
+.ciemnasek .socjalki
 {
-  visibility: visible;
-  fill:rgba(33, 150, 243, 1);
-  stroke: rgba(33, 150, 243, 1);
-}*/
-/*.ciemnasek .socjalki
-{
-  padding: 0%;
-  padding-top: 20px;
-}*/
+  padding: 16px 0px 0px;
+}
 
 .ciemnasek .socjalki .socjalka
 {
