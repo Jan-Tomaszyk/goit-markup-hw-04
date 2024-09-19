@@ -359,8 +359,10 @@ h1.naguwek
 
 .Klient
 {
+  width: 170px;
+  height: 92px;
   border-color: var(--jasnoszaryikony);
-  border-width: 1px;
+  border-width: 2px;
   border-radius: 1%;
 }
 
