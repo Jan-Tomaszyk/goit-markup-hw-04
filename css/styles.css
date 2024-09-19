@@ -188,7 +188,7 @@ ul.poziom
   cursor: pointer;
 }
 .socjalki .socjalka:hover {
-  fill: var(--bialy);
+  color: var(--bialy);
   background-color: var(--blekit);
 }
 .socjalki .socjalka:focus {
