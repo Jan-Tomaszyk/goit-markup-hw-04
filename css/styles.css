@@ -187,16 +187,17 @@ ul.poziom
   border-radius: 50%;
   cursor: pointer;
 }
-.socjalki .socjalka:hover .icon, .socjalki .socjalka:focus .icon
-{
-  color: var(--bialy);
-  fill: var(--bialy);
-}
+
 .socjalki .socjalka:hover, .socjalki .socjalka:focus
 {
   background-color: var(--blekit);
 }
 
+.socjalki .socjalka:hover .icon, .socjalki .socjalka:focus .icon
+{
+  color: var(--bialy);
+  fill: var(--bialy);
+}
 /*circle:hover, circle:focus
 {
   visibility: visible;
