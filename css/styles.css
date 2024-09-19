@@ -215,6 +215,7 @@ ul.poziom
   border: 1px solid var(--ciemnoszaryb);
   background-color: var(--ciemnoszaryb);
   color: var(--bialy);
+  fill: var(--bialy);
   border-radius: 50%;
   cursor: pointer;
 }
@@ -357,7 +358,7 @@ h1.naguwek
   display: flex;
   justify-content: center;
 }
-
+/**/
 .Klient
 {
   width: 170px;
