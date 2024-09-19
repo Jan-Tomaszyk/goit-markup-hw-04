@@ -174,16 +174,27 @@ ul.poziom
   text-align: left;*/
 }
 
-circle
+.socjalki div
 {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill:rgba(33, 150, 243, 1);
+  stroke: rgba(33, 150, 243, 1);
   visibility: hidden;
 }
-circle:hover, circle:focus
+.socjalki div:hover, .socjalki div:focus
 {
   visibility: visible;
   fill:rgba(33, 150, 243, 1);
   stroke: rgba(33, 150, 243, 1);
 }
+/*circle:hover, circle:focus
+{
+  visibility: visible;
+  fill:rgba(33, 150, 243, 1);
+  stroke: rgba(33, 150, 243, 1);
+}*/
 .menu > .link
 {
   font-weight: 500;
