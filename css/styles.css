@@ -177,7 +177,7 @@ ul.poziom
   gap: 10px;
   padding: 16px 32px 0px;
 }
-.socjalki div {
+.socjalki .socjalka {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -187,11 +187,11 @@ ul.poziom
   border-radius: 50%;
   cursor: pointer;
 }
-.socjalki div:hover {
+.socjalki .socjalka:hover {
   fill: var(--bialy);
   background-color: var(--blekit);
 }
-.socjalki div:focus {
+.socjalki .socjalka:focus {
   color: var(--bialy);
   background-color: var(--blekit);
 }
