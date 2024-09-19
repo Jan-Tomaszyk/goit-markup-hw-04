@@ -196,7 +196,7 @@ ul.poziom
 .socjalki .socjalka:hover .icon, .socjalki .socjalka:focus .icon
 {
   color: var(--bialy);
-  /*fill: var(--bialy);*/
+  fill: var(--bialy);
 }
 /*circle:hover, circle:focus
 {
