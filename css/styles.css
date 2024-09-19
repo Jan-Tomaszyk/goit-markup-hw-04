@@ -4,7 +4,7 @@
   --uperjasnoszary: rgba(236, 236, 236, 1);
   --jasnoszary: rgba(117, 117, 117, 1);
   --ciemnoszary:  rgba(33, 33, 33, 1);
-  --jasnoszarymedia: rgba(175, 177, 184, 1);
+  --jasnoszaryikony: rgba(175, 177, 184, 1);
   --bialy: rgba(255, 255, 255, 1);
 }
 
@@ -87,19 +87,15 @@ h1, h2, h3, h4, h5, h6, p, ul, li
   fill: var(--blekit);
   border-color: var(--blekit);
 }
-/*.icon {
-  border: 1px dashed var(--jasnoszary);
-  /*border-radius: 10%;
-  position:relative;
-  display: inline;
-  visibility: visible;
-  color: inherit;
-}*/
+.icon 
+{
+  fill: var(--jasnoszaryikony);
+}
 /*.icon:hover
 {
   fill:blue;
-}
-*/
+}*/
+
 .ciemnasek .icon
 {
   fill: #a2a2a2;
