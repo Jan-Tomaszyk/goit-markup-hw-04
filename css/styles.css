@@ -4,6 +4,7 @@
   --uperjasnoszary: rgba(236, 236, 236, 1);
   --jasnoszary: rgba(117, 117, 117, 1);
   --ciemnoszary:  rgba(33, 33, 33, 1);
+  --ciemnoszaryb: rgba(255, 255, 255, 0.1);;
   --jasnoszaryikony: rgba(175, 177, 184, 1);
   --bialy: rgba(255, 255, 255, 1);
 }
@@ -204,6 +205,20 @@ ul.poziom
   fill:rgba(33, 150, 243, 1);
   stroke: rgba(33, 150, 243, 1);
 }*/
+
+.ciemnasek .socjalki .socjalka
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--ciemnoszaryb);
+  background-color: var(--ciemnoszaryb);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 .menu > .link
 {
   font-weight: 500;
