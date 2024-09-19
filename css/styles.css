@@ -179,13 +179,11 @@ ul.poziom
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill:rgba(33, 150, 243, 1);
-  stroke: rgba(33, 150, 243, 1);
-  visibility: hidden;
+  fill:rgba(33, 150, 243, 0);
+  stroke: rgba(33, 150, 243, 0);
 }
 .socjalki div:hover, .socjalki div:focus
 {
-  visibility: visible;
   fill:rgba(33, 150, 243, 1);
   stroke: rgba(33, 150, 243, 1);
 }
