@@ -192,10 +192,10 @@ ul.poziom
 {
   background-color: var(--blekit);
 }
-/*
+
 .socjalki .socjalka:hover .icon, .socjalki .socjalka:focus .icon
 {
-  color: var(--bialy);
+  /*color: var(--bialy);*/
   fill: var(--bialy);
 }
 /*circle:hover, circle:focus
