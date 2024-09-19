@@ -189,7 +189,7 @@ ul.poziom
   cursor: pointer;
 }
 
-.socjalki .socjalka:hover, .socjalki .socjalka:focus
+.socjalki div.socjalka:hover, .socjalki div.socjalka:focus
 {
   background-color: var(--blekit);
 }
