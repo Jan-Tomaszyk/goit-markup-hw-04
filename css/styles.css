@@ -192,7 +192,7 @@ ul.poziom
 {
   background-color: var(--blekit);
 }
-
+/*
 .socjalki .socjalka:hover .icon, .socjalki .socjalka:focus .icon
 {
   color: var(--bialy);
