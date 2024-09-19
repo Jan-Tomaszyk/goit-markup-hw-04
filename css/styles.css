@@ -217,6 +217,8 @@ ul.poziom
   background-color: var(--ciemnoszaryb);
   border-radius: 50%;
   cursor: pointer;
+  padding: 0%;
+  padding-top: 20px;
 }
 
 .ciemnasek .socjalki div.socjalka:hover, .socjalki div.socjalka:focus
