@@ -214,6 +214,7 @@ ul.poziom
   height: 44px;
   border: 1px solid var(--ciemnoszaryb);
   background-color: var(--ciemnoszaryb);
+  color: var(--bialy);
   border-radius: 50%;
   cursor: pointer;
 }
