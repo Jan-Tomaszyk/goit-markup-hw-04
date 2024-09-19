@@ -357,6 +357,19 @@ h1.naguwek
   justify-content: center;
 }
 
+.Klient
+{
+  border-color: var(--jasnoszaryikony);
+  border-width: 1px;
+  border-radius: 1%;
+}
+
+.Klient:hover, .Klient:focus 
+{
+  border-color: var(--blekit);
+  color: var(--blekit);
+}
+
 .siatka
 {
   display: flex;
