@@ -4,6 +4,7 @@
   --uperjasnoszary: rgba(236, 236, 236, 1);
   --jasnoszary: rgba(117, 117, 117, 1);
   --ciemnoszary:  rgba(33, 33, 33, 1);
+  --jasnoszarymedia: rgba(175, 177, 184, 1); 
 }
 
 *
@@ -179,14 +180,21 @@ ul.poziom
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill:rgba(33, 150, 243, 0);
-  stroke: rgba(33, 150, 243, 0);
+  /*fill:rgba(33, 150, 243, 0);
+  stroke: rgba(33, 150, 243, 0);*/
 }
 .socjalki div:hover, .socjalki div:focus
 {
   fill:rgba(33, 150, 243, 1);
   stroke: rgba(33, 150, 243, 1);
 }
+
+.socjalki svg
+{
+  fill: var(--jasnoszarymedia);
+  stroke: var(--jasnoszarymedia);
+}
+
 /*circle:hover, circle:focus
 {
   visibility: visible;
