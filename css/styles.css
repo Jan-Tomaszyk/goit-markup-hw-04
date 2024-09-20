@@ -229,7 +229,7 @@ a.logo.link
   cursor: pointer;
 }
 
-.ciemnasek .socjalki div.socjalka
+.ciemnasek .socjalki div.socjalka .icon
 {
   color: var(--bialy);
   fill: var(--bialy);
