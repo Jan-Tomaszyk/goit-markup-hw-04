@@ -205,7 +205,7 @@ a.logo.link
   background-color: var(--blekit);
 }
 
-.socjalki .socjalka:hover .icon, .socjalki .socjalka:focus .icon
+.socjalki .socjalka .icon, .socjalki .socjalka .icon
 {
   color: var(--bialy);
   fill: var(--bialy);
