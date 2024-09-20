@@ -203,13 +203,14 @@ a.logo.link
 .socjalki div.socjalka:hover, .socjalki div.socjalka:focus
 {
   background-color: var(--blekit);
-}
-
-.socjalki .socjalka .icon:hover, .socjalki .socjalka .icon:focus
-{
   color: var(--bialy);
   fill: var(--bialy);
 }
+/*
+.socjalki .socjalka:hover, .socjalki .socjalka:focus
+{
+  
+}*/
 .ciemnasek .socjalki
 {
   padding: 16px 0px 0px;
