@@ -4,7 +4,8 @@
   --uperjasnoszary: rgba(236, 236, 236, 1);
   --jasnoszary: rgba(117, 117, 117, 1);
   --ciemnoszary:  rgba(33, 33, 33, 1);
-  --ciemnoszaryb: rgba(255, 255, 255, 0.1);;
+  --ciemnoszaryb: rgba(255, 255, 255, 0.1);
+  --szarocien: rgba(229, 229, 229, 0.4);
   --jasnoszaryikony: rgba(175, 177, 184, 1);
   --bialy: rgba(255, 255, 255, 1);
 }
@@ -432,7 +433,12 @@ figure
   border-right: 1px solid var(--uperjasnoszary);
   padding: 10px;
 }
+/*
+.portkarta:hover, .portkarta:focus
+{
 
+}
+*/
 .przyciski
 {
   padding-left: 295px;
@@ -449,12 +455,17 @@ figure
 .sekh {
   background-image: linear-gradient(
       90deg,
-      var(--shadow-grey),
-      var(--shadow-grey)
+      var(--szarocien),
+      var(--szarocien)
     ),
     url(../images/img.jpg);
   max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover, 1600px;
+}
+
+.przyciski
+{
+  gap: 8px;
 }
