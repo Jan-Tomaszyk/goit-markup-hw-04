@@ -203,14 +203,13 @@ a.logo.link
 .socjalki div.socjalka:hover, .socjalki div.socjalka:focus
 {
   background-color: var(--blekit);
+}
+
+.socjalki .socjalka:hover, .socjalki .socjalka:focus
+{
   color: var(--bialy);
   fill: var(--bialy);
 }
-/*
-.socjalki .socjalka:hover, .socjalki .socjalka:focus
-{
-  
-}*/
 .ciemnasek .socjalki
 {
   padding: 16px 0px 0px;
@@ -391,12 +390,11 @@ h1.naguwek
 .Klient:hover, .Klient:focus 
 {
   border-color: var(--blekit);
-  fill: var(--blekit);
-  color: var(--blekit);
 }
 .Klient:hover .icon, .Klient:focus .icon
 {
   color: var(--blekit);
+  fill: var(--blekit);
 }
 
 .siatka
