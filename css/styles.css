@@ -210,6 +210,11 @@ a.logo.link
   color: var(--bialy);
   fill: var(--bialy);
 }
+.socjalki .socjalka .icon:hover, .socjalki .socjalka .icon:focus
+{
+  color: var(--bialy);
+  fill: var(--bialy);
+}
 .ciemnasek .socjalki
 {
   padding: 16px 0px 0px;
@@ -391,7 +396,7 @@ h1.naguwek
 {
   border-color: var(--blekit);
 }
-.Klient:hover .icon, .Klient:focus .icon
+.Klient:hover svg.icon, svg.Klient:focus .icon
 {
   color: var(--blekit);
   fill: var(--blekit);
