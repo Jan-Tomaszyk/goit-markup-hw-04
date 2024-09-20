@@ -377,6 +377,9 @@ h1.naguwek
 {
   width: 170px;
   height: 92px;
+  display: flex;
+  align-items: center;
+  align-content: center;
   border-color: var(--jasnoszaryikony);
   border-style: solid;
   border-width: 2px;
