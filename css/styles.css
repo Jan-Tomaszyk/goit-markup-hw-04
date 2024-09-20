@@ -388,11 +388,12 @@ h1.naguwek
 {
   border-color: var(--blekit);
   fill: var(--blekit);
+  color: var(--blekit);
 }
-.Klient .icon
+/*.Klient .icon
 {
 
-}
+}*/
 
 .siatka
 {
