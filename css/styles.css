@@ -378,8 +378,10 @@ h1.naguwek
   width: 170px;
   height: 92px;
   border-color: var(--jasnoszaryikony);
+  border-style: solid;
   border-width: 2px;
-  border-radius: 1%;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .Klient:hover, .Klient:focus 
