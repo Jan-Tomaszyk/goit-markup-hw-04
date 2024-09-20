@@ -159,7 +159,7 @@ ul.poziom
   margin-top: 10px;
   padding-bottom: 28px;
 }
-.logo
+a.logo.link
 {
   font-family: 'Raleway', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
   font-size: 26px;
@@ -171,6 +171,16 @@ ul.poziom
   /*line-height: 30.52px;
   letter-spacing: 0.03em;
   text-align: left;*/
+}
+
+.naszkarta
+{
+  box-shadow: 0px 2px 3px 1px hsla(0,0%,0%,.3);
+}
+
+.portkarta:hover
+{
+  box-shadow: 0px 2px 3px 1px hsla(0,0%,0%,.3);
 }
 
 .socjalki
@@ -422,13 +432,3 @@ figure
   background-position: center;
   background-size: contain;
 }*/
-
-.naszkarta
-{
-  box-shadow: 0px 2px 3px 1px hsla(0,0%,0%,.3);
-}
-
-.portkarta:hover
-{
-  box-shadow: 0px 2px 3px 1px hsla(0,0%,0%,.3);
-}
