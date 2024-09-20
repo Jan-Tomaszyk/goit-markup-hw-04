@@ -205,7 +205,7 @@ a.logo.link
   background-color: var(--blekit);
 }
 
-.socjalki .socjalka .icon, .socjalki .socjalka .icon
+.socjalki .socjalka .icon:hover, .socjalki .socjalka .icon:focus
 {
   color: var(--bialy);
   fill: var(--bialy);
@@ -393,10 +393,10 @@ h1.naguwek
   fill: var(--blekit);
   color: var(--blekit);
 }
-/*.Klient .icon
+.Klient:hover .icon, .Klient:focus .icon
 {
-
-}*/
+  color: var(--blekit);
+}
 
 .siatka
 {
