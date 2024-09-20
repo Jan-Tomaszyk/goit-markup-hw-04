@@ -387,11 +387,11 @@ h1.naguwek
 .Klient:hover, .Klient:focus 
 {
   border-color: var(--blekit);
-  color: var(--blekit);
+  fill: var(--blekit);
 }
 .Klient .icon
 {
-  
+
 }
 
 .siatka
